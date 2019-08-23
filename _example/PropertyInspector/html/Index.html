@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name=viewport
+          content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>Win-Lose-Draw Tracker</title>
+    <link rel="stylesheet" href="../sdpi.css">
+</head>
+<body>
+<div class="sdpi-wrapper">
+    <div class="sdpi-item">
+        <div class="sdpi-item-label">Count</div>
+        <input value="" class="sdpi-item-value" oninput="updateSettings()" id="count"
+               placeholder="How many times i've been counted" required>
+    </div>
+    <div class="sdpi-item">
+        <div class="sdpi-item-label">Submit</div>
+        <button class="sdpi-item-value" onclick="updateSettings()">Update Settings</button>
+    </div>
+</div>
+<script src="../Index.js"></script>
+</body>
+</html>
